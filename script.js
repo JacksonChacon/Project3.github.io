@@ -41,9 +41,9 @@ highlightListItems();
 // --- Tasks 5, 6, 7 & 8: Toggle Functionality ---
 // Define the functions (e.g., toggleStatus, createTimestamp) and event listeners
 // here to handle the click event on the toggleButton [6, 7].
-timestamp = document.createElement("span");
+//timestamp = document.createElement("span");
 function createTimestamp(){
-    //timestamp = document.createElement("span");
+    timestamp = document.createElement("span");
     new Date().toLocaleTimeString();
     timestamp.innerHTML = Date();
     statusOutput.appendChild(timestamp);
